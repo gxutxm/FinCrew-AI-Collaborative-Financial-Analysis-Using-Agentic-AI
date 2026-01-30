@@ -4,3 +4,25 @@
 # Ignore Python cache files
 __pycache__/
 *.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Output files (charts, temp data)
+outputs/
+*.png
+*.jpg
+
+# Data files (too large for git)
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+#virtual env
+venv/
