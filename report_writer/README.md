@@ -25,6 +25,14 @@ into a structured financial report.
 - Text-based financial report
 - Ready for PDF or Streamlit integration
 
-### Owner
-Student 3
+### Project Contribution Summary
+
+I implemented the Report Writer Agent responsible for combining market
+sentiment outputs and quantitative financial metrics into a structured
+financial report. My contribution included defining the JSON schema for
+agent communication, developing prompt templates to control analysis scope
+and prevent hallucinated outputs, and implementing Python logic for input
+validation and report generation. I also ensured clean documentation and
+professional version control practices using a feature branch and pull
+request workflow.
 
