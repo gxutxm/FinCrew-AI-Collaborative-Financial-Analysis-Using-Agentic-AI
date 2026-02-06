@@ -1,0 +1,15 @@
+{
+  "market_research": {
+    "sentiment": "string",
+    "confidence_score": "float",
+    "key_risks": ["string"],
+    "summary": ["string"]
+  },
+  "quant_analysis": {
+    "volatility": "float",
+    "avg_return": "float",
+    "RSI": "int",
+    "max_drawdown": "float"
+  }
+}
+

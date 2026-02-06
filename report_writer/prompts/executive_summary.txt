@@ -1,0 +1,4 @@
+Write a concise executive summary using market sentiment
+and quantitative metrics.
+Focus on outlook, risks, and alignment between data and sentiment.
+

@@ -1,0 +1,4 @@
+Analyze whether numerical performance supports or contradicts sentiment.
+Highlight risks and inconsistencies.
+Avoid buy or sell recommendations.
+
