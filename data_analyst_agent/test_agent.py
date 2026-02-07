@@ -25,3 +25,11 @@ print("=" * 60)
 result = agent.run("XYZFAKE123", "2024-01-01", "2024-12-31")
 print(f"Success: {result['success']}")
 print(f"Errors: {result.get('errors', [])}")
+
+# Test 3: Report format output
+print("\n" + "=" * 60)
+print("TEST 3: Report Writer Format")
+print("=" * 60)
+result = agent.run("AAPL", "2024-01-01", "2024-12-31")
+report_format = agent.to_report_format(result)
+print(json.dumps(report_format, indent=2))
