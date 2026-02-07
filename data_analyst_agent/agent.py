@@ -55,3 +55,18 @@ class DataAnalystAgent:
             'success': True
         }
     
+    def to_report_format(self, result: dict) -> dict:
+        """
+        Convert output to Report Writer's expected schema.
+        """
+        if not result['success']:
+            return {"quant_analysis": {}, "error": result.get('errors', [])}
+        
+        return {
+            "quant_analysis": {
+                "volatility": result["metrics"]["volatility_annual"],
+                "avg_return": result["metrics"]["avg_daily_return"],
+                "RSI": int(result["metrics"]["rsi_current"]),
+                "max_drawdown": result["metrics"]["max_drawdown"]
+            }
+        }
