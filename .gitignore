@@ -25,4 +25,5 @@ outputs/
 .ipynb_checkpoints/
 
 #virtual env
-venv/
+venv/reports/
+data_analyst_agent/outputs/
