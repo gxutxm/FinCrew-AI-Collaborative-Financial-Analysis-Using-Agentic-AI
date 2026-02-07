@@ -17,6 +17,7 @@ Thumbs.db
 outputs/
 *.png
 *.jpg
+reports
 
 # Data files (too large for git)
 *.csv
@@ -27,3 +28,4 @@ outputs/
 #virtual env
 venv/reports/
 data_analyst_agent/outputs/
+venv
