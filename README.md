@@ -241,4 +241,5 @@ Shows how far below the peak price was at each point:
 
 ## License
 
-This project was built for educational purposes as part of a collaborative AI systems course.
+This project was built for educational purposes.
+
